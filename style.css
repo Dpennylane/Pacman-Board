@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    margin-top: 30px;
+    width: 396px;
+    height: 396px;
+    border: solid #F24C3D 2px;
+    border-radius: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    border: solid black 0.1px;
+}
+
+.vertical-wall {
+    background-color: #2955D9;
+    transform: scalex(.2);
+}
+.horizontal-wall {
+    background-color: #2955D9;
+    transform: scaleY(.2);
+}
+
+.path {
+    background-color: #0597F2;
+    border-radius: 100%;
+    transform: scale(.3);
+}
+.background-wall {
+    background-color: black;
+}
+
+.pacman {
+    background-image:  url(images/pacman.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.g-red {
+    background-image:  url(images/g-red.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.g-pink {
+    background-image:  url(images/g-pink.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.g-orange {
+    background-image:  url(images/g-orange.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.g-green {
+    background-image:  url(images/g-green.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.g-blue {
+    background-image:  url(images/g-blue.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cherry {
+    background-image:  url(images/cherry.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
